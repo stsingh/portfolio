@@ -6,7 +6,7 @@ const Navbar = () => {
         <nav>
             <div className="links">
                 <Link to="/" className="absolute left-6 top-3 flex text-3xl">
-                    Sat Sri Akal
+                    Sahej Singh
                 </Link>
                 <ul className="flex absolute right-6 top-3">
                     <li className='mr-4'>
