@@ -9,7 +9,7 @@ const IndexPage = () => {
       <Navbar/>
       <div className="w-3/4 mt-20 rounded text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
-          <div className="font-bold text-4xl mb-2 text-flame">Salutations! I'm <br/><span className='text-white text-9xl'>Sahej Singh</span> ,</div>
+          <div className="font-bold text-4xl mb-2 text-white">Hey! I'm <br/><span className='text-flame text-9xl'>Sahej Singh</span> ,</div>
           <p className="w-2/3 text-gray-700 text-3xl my-6">
             a Computer Engineering student at the University of Illinois Urbana-Champaign. Feel free to contact me with any questions about my projects and experience!
           </p>
