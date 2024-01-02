@@ -18,6 +18,7 @@ const ProjectsPage = () => {
                                             />}
                                 title='EyeOweYou' 
                                 url='https://www.eyeoweyou.me/'
+                                gturl='https://github.com/stsingh/eye-owe-you'
                                 description='MERN stack-based webapp designed to keep track of money user owes or has lent out.' 
                                 tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
                     />
@@ -27,6 +28,7 @@ const ProjectsPage = () => {
                                             />}
                                 title='ToxiShield'
                                 url='http://sahej3526.pythonanywhere.com/'
+                                gturl='https://github.com/stsingh/toxi-shield'
                                 description='Small Flask webapp that determines whether or not that chemical is safe to use as a pesticide.' 
                                 tools={['Flask', 'PubChemPy', 'RDKit', 'HyperOptSklearn']}
                     />
@@ -36,7 +38,8 @@ const ProjectsPage = () => {
                                             />}
                                 title='Homewards' 
                                 url='https://github.com/MAMS-OP5/shelter-app'
-                                description='Object-oriented Android app developed to connect the unhoused with homeless shelters and their resources' 
+                                gturl='https://github.com/MAMS-OP5/shelter-app'
+                                description='Object-oriented Android app developed to connect the unhoused with homeless shelters and their resources.' 
                                 tools={['Android SDK', 'Firebase']}
                     />
                     <ProjectCard staticImage={() => <StaticImage
@@ -45,8 +48,9 @@ const ProjectsPage = () => {
                                             />}
                                 title='ReadingEye' 
                                 url='https://github.com/stsingh/ReadingEye'
+                                gturl='https://github.com/stsingh/ReadingEye'
                                 description='Assistive technology that allows the visually impaired to hook device on to glasses and read back text at the push of a
-                                button' 
+                                button.' 
                                 tools={['ESP32 SoC', 'Arduino IDE']}
                     />
                 </div>

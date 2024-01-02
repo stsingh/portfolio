@@ -5,9 +5,9 @@ import Navbar from '../components/navbar'
 // Step 2: Define your component
 const IndexPage = () => {
   return (
-    <main className='flex justify-center'>
+    <main className='justify-center'>
       <Navbar/>
-      <div className="w-11/12 md:w-3/4 mt-20 rounded p-3 md:p-6 text-white bg-black overflow-hidden shadow-lg">
+      <div className="w-11/12 md:w-3/4 mt-20 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
           <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Hey! I'm <br/><span className='text-flame text-6xl md:text-9xl'>Sahej Singh</span>.</div>
           <p className="text-gray-700 text-xl md:text-3xl my-6">
@@ -35,12 +35,16 @@ const IndexPage = () => {
           </a>
         </div>
       </div>
+
+      <div className="w-11/12 md:w-3/4 mt-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
+        <div className="px-6 py-4">
+          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Currently:</div>
+        </div>
+      </div>
     </main>
   );
 }
 
-// You'll learn about this in the next task, just copy it for now
 export const Head = () => <title>Sahej Singh</title>
 
-// Step 3: Export your component
 export default IndexPage
