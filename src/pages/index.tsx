@@ -7,14 +7,14 @@ const IndexPage = () => {
   return (
     <main className='flex justify-center'>
       <Navbar/>
-      <div className="w-3/4 mt-20 rounded text-white bg-black overflow-hidden shadow-lg">
+      <div className="w-11/12 md:w-3/4 mt-20 rounded p-3 md:p-6 text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
-          <div className="font-bold text-4xl mb-2 text-white">Hey! I'm <br/><span className='text-flame text-9xl'>Sahej Singh</span> ,</div>
-          <p className="w-2/3 text-gray-700 text-3xl my-6">
-            a Computer Engineering student at the University of Illinois Urbana-Champaign. Feel free to contact me with any questions about my projects and experience!
+          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Hey! I'm <br/><span className='text-flame text-6xl md:text-9xl'>Sahej Singh</span>.</div>
+          <p className="text-gray-700 text-xl md:text-3xl my-6">
+            Computer Engineering student at the University of Illinois Urbana-Champaign.
           </p>
         </div>
-        <div className="flex space-x-6 px-6 pt-4 pb-2 text-gray">
+        <div className="flex space-x-6 px-6 pt-4 pb-2  text-gray">
           <a href='mailto: sahejts@illinois.edu'>
             <button className='flex inline-block hover:text-flame fill-gray hover:fill-flame'>
               <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/></svg>

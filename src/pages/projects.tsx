@@ -7,7 +7,7 @@ const ProjectsPage = () => {
     return (
         <main className='flex justify-center'>
             <Navbar/>
-            <div className="w-3/4 mt-20 rounded text-white bg-black overflow-hidden shadow-lg">
+            <div className="w-11/12 md:w-3/4 mt-20 rounded text-white bg-black overflow-hidden shadow-lg">
                 <div className="px-6 py-4">
                     <div className="font-bold text-4xl mb-2 text-white">Projects</div>
                 </div>
