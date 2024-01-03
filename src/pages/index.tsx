@@ -1,6 +1,9 @@
 // Step 1: Import React
 import * as React from 'react'
 import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+import ProjectCard from '../components/projectCard';
+import { StaticImage } from 'gatsby-plugin-image';
 
 // Step 2: Define your component
 const IndexPage = () => {
@@ -38,7 +41,28 @@ const IndexPage = () => {
 
       <div className="w-11/12 md:w-3/4 mt-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
-          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Currently:</div>
+          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">About</div>
+          <p className='text-gray md:w-3/4'>Hey! I'm Sahej, a Computer Engineering student at UIUC. I am very passionate about delivering team-based solutions leveraging Artificial Intelligence and Robotics.
+             For my personal and professional growth, I am currently seeking internship opportunities in these fields that will enable me to work in a team setting and 
+             deliver solutions to challenging problems. I have had the privilege of working on firmware and computer vision for the R-Gator team at 
+             <a href='https://auvsl.ise.illinois.edu/' target='_blank' className='text-flame'>&nbsp;AUVSL</a>, and have a few projects that you can check out above. 
+             Feel free to contact me with any questions or comments about any of my projects or experience!</p>
+        </div>
+      </div>
+
+      <div className="w-11/12 md:w-3/4 mt-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
+        <div className="px-6 py-4">
+          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Current Work</div>
+          <ProjectCard staticImage={() => <StaticImage
+                                                                src="../images/eyeoweyou.png"
+                                                                alt="Portblair" 
+                                            />}
+                                title='EyeOweYou' 
+                                url='https://www.eyeoweyou.me/'
+                                gturl='https://github.com/stsingh/eye-owe-you'
+                                description='MERN stack-based webapp designed to keep track of money user owes or has lent out.' 
+                                tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
+                    />
         </div>
       </div>
     </main>
