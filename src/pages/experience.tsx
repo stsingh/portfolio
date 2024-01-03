@@ -6,7 +6,7 @@ const ExperiencePage = () => {
     return (
         <main className='flex flex-col justify-center justify-between min-h-screen'>
             <Navbar/>
-            <div>
+            <div className='mb-10'>
                 
             </div>
             <Footer/>
