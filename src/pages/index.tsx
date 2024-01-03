@@ -1,14 +1,12 @@
-// Step 1: Import React
 import * as React from 'react'
 import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import ProjectCard from '../components/projectCard';
 import { StaticImage } from 'gatsby-plugin-image';
 
-// Step 2: Define your component
 const IndexPage = () => {
   return (
-    <main className='justify-center'>
+    <main className='flex flex-col justify-center justify-between min-h-screen'>
       <Navbar/>
       <div className="w-11/12 md:w-3/4 mt-20 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
@@ -60,11 +58,13 @@ const IndexPage = () => {
                                 title='EyeOweYou' 
                                 url='https://www.eyeoweyou.me/'
                                 gturl='https://github.com/stsingh/eye-owe-you'
-                                description='MERN stack-based webapp designed to keep track of money user owes or has lent out.' 
+                                description='My most recent project was this small-scale money-tracking webapp, EyeOweYou. It allows the user to track who they have lent money to, and who has lent money to them using a MongoDB NoSQL database along with Express.js. 
+                                On the frontend, we also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. ' 
                                 tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
                     />
         </div>
       </div>
+      <Footer/>
     </main>
   );
 }

@@ -1,11 +1,16 @@
 import * as React from 'react'
 import Navbar from '../components/navbar'
+import Footer from '../components/footer';
 
 const ExperiencePage = () => {
     return (
-        <div>
+        <main className='flex flex-col justify-center justify-between min-h-screen'>
             <Navbar/>
-        </div>
+            <div>
+                
+            </div>
+            <Footer/>
+        </main>
     );
 }
 
