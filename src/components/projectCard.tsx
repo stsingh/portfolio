@@ -12,7 +12,9 @@ type props = {
 const ProjectCard = ({staticImage, title, url, gturl, description, tools}: props) => {
     const toolsList:React.JSX.Element[] = []
     tools.forEach((tool, index) => {
-        toolsList.push(<span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">{tool}</span>);
+        toolsList.push(<span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
+            {tool}
+        </span>);
     });
 
     return (

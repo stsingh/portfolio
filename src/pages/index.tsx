@@ -10,7 +10,7 @@ const IndexPage = () => {
       <Navbar/>
       <div className="w-11/12 md:w-3/4 mt-20 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
-          <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Hey! I'm <br/><span className='text-flame text-6xl md:text-9xl'>Sahej Singh</span>.</div>
+          <span className='font-bold text-flame text-6xl md:text-9xl'>Sahej Singh</span>
           <p className="text-gray-700 text-xl md:text-3xl my-6">
             Computer Engineering student at the University of Illinois Urbana-Champaign.
           </p>
@@ -59,7 +59,8 @@ const IndexPage = () => {
                                 url='https://www.eyeoweyou.me/'
                                 gturl='https://github.com/stsingh/eye-owe-you'
                                 description='My most recent project was this small-scale money-tracking webapp, EyeOweYou. It allows the user to track who they have lent money to, and who has lent money to them using a MongoDB NoSQL database along with Express.js. 
-                                On the frontend, we also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. ' 
+                                On the frontend, I also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. Feel free to check EyeOweYou out by clicking on this card, or check out the
+                                 code on its Github by clicking the icon on the bottom right!' 
                                 tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
                     />
         </div>
