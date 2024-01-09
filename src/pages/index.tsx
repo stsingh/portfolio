@@ -3,6 +3,7 @@ import Navbar from '../components/navbar'
 import Footer from '../components/footer'
 import ProjectCard from '../components/projectCard';
 import { StaticImage } from 'gatsby-plugin-image';
+import JobCard from '../components/jobCard';
 
 const IndexPage = () => {
   return (
@@ -51,18 +52,32 @@ const IndexPage = () => {
       <div className="w-11/12 md:w-3/4 mt-10 mb-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
           <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Recent Work</div>
-          <ProjectCard staticImage={() => <StaticImage
-                                                                src="../images/eyeoweyou.png"
-                                                                alt="Portblair" 
-                                            />}
-                                title='EyeOweYou' 
-                                url='https://www.eyeoweyou.me/'
-                                gturl='https://github.com/stsingh/eye-owe-you'
-                                description='My most recent project was this small-scale money-tracking webapp, EyeOweYou. It allows the user to track who they have lent money to, and who has lent money to them using a MongoDB NoSQL database along with Express.js. 
-                                On the frontend, I also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. Feel free to check EyeOweYou out by clicking on this card, or check out the
-                                 code on its Github by clicking the icon on the bottom right!' 
-                                tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
+          <div className='mb-10'>
+            <JobCard staticImage={() => <StaticImage
+                                                                src="../images/auvsl.jpg"
+                                                                alt="Portblair"
+                                                />}
+                            company='AUVSL'
+                            jobTitle='Research Intern'
+                            companyUrl='https://auvsl.ise.illinois.edu/'
+                            description={['Used Robotic Operating System (ROS), Gazebo, and RVIZ along with Python to develop an obstacle avoidance system for the Jackal UGV series of robots using PointCloud computer vision data from an Intel Realsense Depth Camera' , 
+                                          'Developed a CANBus hardware to ROS2 Embedded Systems Topic node that allows developers to subscribe for vehicle robotics data',
+                                          'Worked closely with graduate students to test, validate, and process thousands of frames of real-world vehicle navigation into a JSON file using Python for use in the training of autonomous navigation of automobiles']}
+                            dateRange='May 2023 - Present'
                     />
+            </div>
+            <ProjectCard staticImage={() => <StaticImage
+                                                                  src="../images/eyeoweyou.png"
+                                                                  alt="Portblair" 
+                                              />}
+                                  title='EyeOweYou' 
+                                  url='https://www.eyeoweyou.me/'
+                                  gturl='https://github.com/stsingh/eye-owe-you'
+                                  description='My most recent project was this small-scale money-tracking webapp, EyeOweYou. It allows the user to track who they have lent money to, and who has lent money to them using a MongoDB NoSQL database along with Express.js. 
+                                  On the frontend, I also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. Feel free to check EyeOweYou out by clicking on this card, or check out the
+                                  code on its Github by clicking the icon on the bottom right!' 
+                                  tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
+                      />
         </div>
       </div>
       <Footer/>
