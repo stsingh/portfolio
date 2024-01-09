@@ -15,6 +15,8 @@ const ProjectsPage = () => {
                     </div>
                     <div className="container mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-4 text-black">
                         <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/eyeoweyou.png"
                                                                     alt="Portblair" 
                                                 />}
@@ -25,6 +27,8 @@ const ProjectsPage = () => {
                                     tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
                         />
                         <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/toxishield.png"
                                                                     alt="Portblair" 
                                                 />}
@@ -35,6 +39,8 @@ const ProjectsPage = () => {
                                     tools={['Flask', 'PubChemPy', 'RDKit', 'HyperOptSklearn']}
                         />
                         <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/homeward.png"
                                                                     alt="Portblair" 
                                                 />}
@@ -45,6 +51,8 @@ const ProjectsPage = () => {
                                     tools={['Android SDK', 'Firebase']}
                         />
                         <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/readingeye.jpg"
                                                                     alt="Portblair" 
                                                 />}
