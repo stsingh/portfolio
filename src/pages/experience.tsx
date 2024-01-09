@@ -65,7 +65,7 @@ const ExperiencePage = () => {
             <div className="w-11/12 md:w-3/4 mt-10 mb-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
                 <div className="px-6 py-4">
                     <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Resume</div>
-                    <iframe className='w-full aspect-[4/3]' loading="lazy" src='https://sahejs.com/Sahej_Singh_resume.pdf'/>
+                    <iframe className='w-full aspect-[4/3]' loading="lazy" src='/Sahej_Singh_resume.pdf'/>
                 </div>
             </div>
             <Footer/>
