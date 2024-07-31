@@ -16,28 +16,44 @@ const ExperiencePage = () => {
                     <JobCard staticImage={() => <StaticImage
                                                                 width={500*20/9}
                                                                 height={500}
+                                                                src="../images/haylon.png"
+                                                                alt="Haylon Technologies"
+                                                />}
+                            company='Haylon Technologies'
+                            jobTitle='Machine Learning and IoT Intern'
+                            companyUrl='https://auvsl.ise.illinois.edu/'
+                            description={['Developed embedded Machine Learning models using SKLearn and TensorFlow with online training for use on hardware. Allow for prediction of future current spikes with 90% accuracy.' , 
+                                          'Implementing Machine Learning algorithms on microcontroller hardware using C.',
+                                          'Working on development of AWS Sagemaker simulation software for clients.']}
+                            dateRange='Jun 2024 - Present'
+                    />
+                    <JobCard staticImage={() => <StaticImage
+                                                                width={500*20/9}
+                                                                height={500}
                                                                 src="../images/auvsl.jpg"
-                                                                alt="Portblair"
+                                                                alt="AUVSL"
                                                 />}
                             company='AUVSL'
                             jobTitle='Research Intern'
                             companyUrl='https://auvsl.ise.illinois.edu/'
-                            description={['Used Robotic Operating System (ROS), Gazebo, and RVIZ along with Python to develop an obstacle avoidance system for the Jackal UGV series of robots using PointCloud computer vision data from an Intel Realsense Depth Camera' , 
-                                          'Developed a CANBus hardware to ROS2 Embedded Systems Topic node that allows developers to subscribe for vehicle robotics data',
-                                          'Worked closely with graduate students to test, validate, and process thousands of frames of real-world vehicle navigation into a JSON file using Python for use in the training of autonomous navigation of automobiles']}
+                            description={['Used Robotic Operating System (ROS) with Python on Ubuntu Linux to develop an obstacle avoidance system for a Jackal UGV robot using PointCloud computer vision data from a depth camera.' , 
+                                          'Developed a CANBus hardware to ROS2 Embedded Systems Topic node that allows researchers to subscribe for vehicle robotics data. Used by all researchers on test vehicle.',
+                                          'Developed team Github Actions workflow for automatic documentation publication to Github Pages. Used on 100% of all repositories in organization.',
+                                          'Working on development of adaptive control systems architecture using Lipschitz Neural Networks with ROS.']}
                             dateRange='May 2023 - Present'
                     />
                     <JobCard staticImage={() => <StaticImage
                                                                 width={500*20/9}
                                                                 height={500}
                                                                 src="../images/quant.jpg"
-                                                                alt="Portblair" 
+                                                                alt="Quant Illinois" 
                                                 />}
                             company='Quant Illinois'
                             jobTitle='Trading Analyst'
                             companyUrl='https://www.quantillinois.com/'
-                            description={['Developed robust and extensible backtesting framework for organizational use',
-                                          'Optimized and developed engine, order, and trade classes']}
+                            description={['Developed robust and extensible backtesting framework for organizational use. Used by all researchers in organization.',
+                                          'Optimized and developed engine, order, and trade classes. ',
+                                          'Planned and directed EV and arbitrage sports betting project.']}
                             dateRange='Sept 2023 - Present'
                     />
                 </div>
@@ -58,7 +74,10 @@ const ExperiencePage = () => {
                         <a href='https://cs.illinois.edu/academics/courses/cs225' target='_blank' className='hover:text-flame'>Data Structures</a> |&nbsp;
                         <a href='https://ecealgo.com/' target='_blank' className='hover:text-flame'>Algorithms and Models of Computation</a> |&nbsp;
                         <a href='https://ece.illinois.edu/academics/courses/ece408' target='_blank' className='hover:text-flame'>Applied Parallel Programming</a> |&nbsp;
-                        <a href='https://ece.illinois.edu/academics/courses/ece385' target='_blank' className='hover:text-flame'>Digital Systems Laboratory</a>
+                        <a href='https://ece.illinois.edu/academics/courses/ece385' target='_blank' className='hover:text-flame'>Digital Systems Laboratory</a> |&nbsp;
+                        <a href='https://ece.illinois.edu/academics/courses/ece391' target='_blank' className='hover:text-flame'>Computer Systems Engineering</a> |&nbsp;
+                        <a href='https://ece.illinois.edu/academics/courses/ece448' target='_blank' className='hover:text-flame'>Artificial Intelligence</a> |&nbsp;
+                        <a href='https://publish.illinois.edu/safe-autonomy/' target='_blank' className='hover:text-flame'>Principles of Safe Autonomy</a> 
                     </p>
                 </div>
             </div>
