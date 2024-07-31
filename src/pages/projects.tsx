@@ -42,7 +42,7 @@ const ProjectsPage = () => {
                                                                     width={500*20/9}
                                                                     height={500}
                                                                     src="../images/eyeoweyou.png"
-                                                                    alt="Portblair" 
+                                                                    alt="Eye Owe You" 
                                                 />}
                                     title='EyeOweYou' 
                                     url='https://www.eyeoweyou.me/'
@@ -54,7 +54,7 @@ const ProjectsPage = () => {
                                                                     width={500*20/9}
                                                                     height={500}
                                                                     src="../images/toxishield.png"
-                                                                    alt="Portblair" 
+                                                                    alt="ToxiShield" 
                                                 />}
                                     title='ToxiShield'
                                     url='http://sahej3526.pythonanywhere.com/'
@@ -66,7 +66,7 @@ const ProjectsPage = () => {
                                                                     width={500*20/9}
                                                                     height={500}
                                                                     src="../images/homeward.png"
-                                                                    alt="Portblair" 
+                                                                    alt="Homeward" 
                                                 />}
                                     title='Homewards' 
                                     url='https://github.com/MAMS-OP5/shelter-app'
@@ -78,7 +78,7 @@ const ProjectsPage = () => {
                                                                     width={500*20/9}
                                                                     height={500}
                                                                     src="../images/readingeye.jpg"
-                                                                    alt="Portblair" 
+                                                                    alt="ReadingEye" 
                                                 />}
                                     title='ReadingEye' 
                                     url='https://github.com/stsingh/ReadingEye'
