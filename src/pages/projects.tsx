@@ -17,6 +17,30 @@ const ProjectsPage = () => {
                         <ProjectCard staticImage={() => <StaticImage
                                                                     width={500*20/9}
                                                                     height={500}
+                                                                    src="../images/fpga.png"
+                                                                    alt="FPGA" 
+                                                />}
+                                    title='Hardware-Accelerated Neural Network' 
+                                    url='https://www.realdigital.org/hardware/urbana'
+                                    gturl='https://github.com/stsingh/FPGANN'
+                                    description='Developed FPGA neural network hardware.' 
+                                    tools={['FPGA', 'SystemVerilog', 'Vivado']}
+                        />
+                        <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
+                                                                    src="../images/cuda.png"
+                                                                    alt="CUDA" 
+                                                />}
+                                    title='Parallelized CNN Model with CUDA' 
+                                    url='https://www.sahejs.com/projects'
+                                    gturl='https://www.sahejs.com/projects'
+                                    description='Used NVIDIA’s CUDA framework with GPU cluster access to implement CNN model from scratch.' 
+                                    tools={['CUDA', 'Git']}
+                        />
+                        <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/eyeoweyou.png"
                                                                     alt="Portblair" 
                                                 />}

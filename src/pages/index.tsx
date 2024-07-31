@@ -41,10 +41,10 @@ const IndexPage = () => {
       <div className="w-11/12 md:w-3/4 mt-10 rounded p-3 md:p-6 mx-auto text-white bg-black overflow-hidden shadow-lg">
         <div className="px-6 py-4">
           <div className="font-bold text-3xl md:text-4xl mb-2 text-white">About</div>
-          <p className='text-gray md:w-3/4'>Hey! I'm Sahej, a Computer Engineering student at UIUC. I am very passionate about delivering team-based solutions leveraging Artificial Intelligence and Robotics.
+          <p className='text-gray md:w-3/4'>Hey! I'm Sahej, a Computer Engineering student at UIUC. I am very passionate about delivering low-level team-based solutions in the fields of artificial intelligence and finance.
              For my personal and professional growth, I am currently seeking internship opportunities in these fields that will enable me to work in a team setting and 
-             deliver solutions to challenging problems. I have had the privilege of working on firmware and computer vision for the R-Gator team at 
-             <a href='https://auvsl.ise.illinois.edu/' target='_blank' className='text-flame'>&nbsp;AUVSL</a>, and have a few projects that you can check out above. 
+             deliver solutions to challenging problems. I have had the privilege of working on solutions in Machine Learning and Internet of Things at 
+             <a href='https://haylontech.com/' target='_blank' className='text-flame'>&nbsp;Haylon Technologies</a>, and have a few projects that you can check out. 
              Feel free to contact me with any questions or comments about any of my projects or experience!</p>
         </div>
       </div>
@@ -54,30 +54,32 @@ const IndexPage = () => {
           <div className="font-bold text-3xl md:text-4xl mb-2 text-white">Recent Work</div>
           <div className='mb-10'>
             <JobCard staticImage={() => <StaticImage
-                                                                src="../images/auvsl.jpg"
-                                                                alt="Portblair"
+                                                                width={500*20/9}
+                                                                height={500}
+                                                                src="../images/haylon.png"
+                                                                alt="Haylon Technologies"
                                                 />}
-                            company='AUVSL'
-                            jobTitle='Research Intern'
-                            companyUrl='https://auvsl.ise.illinois.edu/'
-                            description={['Used Robotic Operating System (ROS), Gazebo, and RVIZ along with Python to develop an obstacle avoidance system for the Jackal UGV series of robots using PointCloud computer vision data from an Intel Realsense Depth Camera' , 
-                                          'Developed a CANBus hardware to ROS2 Embedded Systems Topic node that allows developers to subscribe for vehicle robotics data',
-                                          'Worked closely with graduate students to test, validate, and process thousands of frames of real-world vehicle navigation into a JSON file using Python for use in the training of autonomous navigation of automobiles']}
-                            dateRange='May 2023 - Present'
-                    />
+                            company='Haylon Technologies'
+                            jobTitle='Machine Learning and IoT Intern'
+                            companyUrl='https://haylontech.com/'
+                            description={['Developed embedded Machine Learning models using SKLearn and TensorFlow with online training for use on hardware. Allow for prediction of future current spikes with 90% accuracy.' , 
+                                          'Implementing Machine Learning algorithms on microcontroller hardware using C.',
+                                          'Working on development of AWS Sagemaker simulation software for clients.']}
+                            dateRange='Jun 2024 - Present'
+            />
             </div>
             <ProjectCard staticImage={() => <StaticImage
-                                                                  src="../images/eyeoweyou.png"
-                                                                  alt="Portblair" 
-                                              />}
-                                  title='EyeOweYou' 
-                                  url='https://www.eyeoweyou.me/'
-                                  gturl='https://github.com/stsingh/eye-owe-you'
-                                  description='My most recent project was this small-scale money-tracking webapp, EyeOweYou. It allows the user to track who they have lent money to, and who has lent money to them using a MongoDB NoSQL database along with Express.js. 
-                                  On the frontend, I also have the dynamic and modular React.js library/framework along with Tailwind.css styling. All of this is tied together using Node.js. Feel free to check EyeOweYou out by clicking on this card, or check out the
-                                  code on its Github by clicking the icon on the bottom right!' 
-                                  tools={['MongoDB', 'Express.js', 'React.js', 'Node.js']}
-                      />
+                                                                    width={500*20/9}
+                                                                    height={500}
+                                                                    src="../images/fpga.png"
+                                                                    alt="FPGA" 
+                                                />}
+                                    title='Hardware-Accelerated Neural Network' 
+                                    url='https://www.realdigital.org/hardware/urbana'
+                                    gturl='https://github.com/stsingh/FPGANN'
+                                    description='In my most recent project, I developed an FPGA neural network hardware. The hardware uses on-chip Block RAM to store weights and biases, and allows for online training of the neural network on a button press.' 
+                                    tools={['FPGA', 'SystemVerilog', 'Vivado']}
+                        />
         </div>
       </div>
       <Footer/>

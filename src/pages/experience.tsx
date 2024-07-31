@@ -21,7 +21,7 @@ const ExperiencePage = () => {
                                                 />}
                             company='Haylon Technologies'
                             jobTitle='Machine Learning and IoT Intern'
-                            companyUrl='https://auvsl.ise.illinois.edu/'
+                            companyUrl='https://haylontech.com/'
                             description={['Developed embedded Machine Learning models using SKLearn and TensorFlow with online training for use on hardware. Allow for prediction of future current spikes with 90% accuracy.' , 
                                           'Implementing Machine Learning algorithms on microcontroller hardware using C.',
                                           'Working on development of AWS Sagemaker simulation software for clients.']}
