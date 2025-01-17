@@ -20,12 +20,13 @@ const ExperiencePage = () => {
                                                                 alt="Haylon Technologies"
                                                 />}
                             company='Haylon Technologies'
-                            jobTitle='Machine Learning and IoT Intern'
+                            jobTitle='Machine Learning and IoT Software Engineer Intern'
                             companyUrl='https://haylontech.com/'
-                            description={['Developed embedded Machine Learning models using SKLearn and TensorFlow with online training for use on hardware. Allow for prediction of future current spikes with 90% accuracy.' , 
-                                          'Implementing Machine Learning algorithms on microcontroller hardware using C.',
-                                          'Working on development of AWS Sagemaker simulation software for clients.']}
-                            dateRange='Jun 2024 - Present'
+                            description={['Developed embedded Machine Learning models using SKLearn and TensorFlow with online training for use on hardware. Allow for prediction of future current spikes with 98% accuracy.' , 
+                                          'Implemented Machine Learning algorithms on Particle Argon hardware using C++, analyzed frequency and power effects.',
+                                          'Developed containerized AWS Lambda cloud computing application for training models on TimeStream data.',
+                                          'Set up GitHub actions as CI/CD platform for future changes to container or function.']}
+                            dateRange='Jun 2024 - Aug 2024'
                     />
                     <JobCard staticImage={() => <StaticImage
                                                                 width={500*20/9}
@@ -49,12 +50,12 @@ const ExperiencePage = () => {
                                                                 alt="Quant Illinois" 
                                                 />}
                             company='Quant Illinois'
-                            jobTitle='Trading Analyst'
+                            jobTitle='Director of Trading'
                             companyUrl='https://www.quantillinois.com/'
                             description={['Developed robust and extensible backtesting framework for organizational use. Used by all researchers in organization.',
                                           'Optimized and developed engine, order, and trade classes. ',
                                           'Planned and directed EV and arbitrage sports betting project.']}
-                            dateRange='Sept 2023 - Present'
+                            dateRange='Sept 2023 - Dec 2024'
                     />
                 </div>
             </div>

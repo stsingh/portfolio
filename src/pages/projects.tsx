@@ -17,6 +17,18 @@ const ProjectsPage = () => {
                         <ProjectCard staticImage={() => <StaticImage
                                                                     width={500*20/9}
                                                                     height={500}
+                                                                    src="../images/f1tenth.jpg"
+                                                                    alt="f1tenth" 
+                                                />}
+                                    title='F1Tenth Autonomous Racecar' 
+                                    url='https://roboracer.ai/'
+                                    gturl='https://github.com/stsingh/f1tenthimpl'
+                                    description='Developed autonomous line-following racecar using ROS and Computer Vision techniques.' 
+                                    tools={['ROS', 'OpenCV', 'F1Tenth']}
+                        />
+                        <ProjectCard staticImage={() => <StaticImage
+                                                                    width={500*20/9}
+                                                                    height={500}
                                                                     src="../images/fpga.png"
                                                                     alt="FPGA" 
                                                 />}
