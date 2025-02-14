@@ -41,7 +41,7 @@ const ExperiencePage = () => {
                                           'Developed a CANBus hardware to ROS2 Embedded Systems Topic node that allows researchers to subscribe for vehicle robotics data. Used by all researchers on test vehicle.',
                                           'Developed team Github Actions workflow for automatic documentation publication to Github Pages. Used on 100% of all repositories in organization.',
                                           'Working on development of adaptive control systems architecture using Lipschitz Neural Networks with ROS.']}
-                            dateRange='May 2023 - Present'
+                            dateRange='May 2023 - Dec 2024'
                     />
                     <JobCard staticImage={() => <StaticImage
                                                                 width={500*20/9}

@@ -45,8 +45,8 @@ const ProjectsPage = () => {
                                                                     alt="CUDA" 
                                                 />}
                                     title='Parallelized CNN Model with CUDA' 
-                                    url='https://www.sahejs.com/projects'
-                                    gturl='https://www.sahejs.com/projects'
+                                    url='https://github.com/stsingh/CUDA_CNN'
+                                    gturl='https://github.com/stsingh/CUDA_CNN'
                                     description='Used NVIDIA’s CUDA framework with GPU cluster access to implement CNN model from scratch.' 
                                     tools={['CUDA', 'Git']}
                         />
